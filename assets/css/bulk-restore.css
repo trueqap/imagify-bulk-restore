@@ -1,0 +1,453 @@
+/**
+ * Imagify Bulk Restore Styles
+ * Following Imagify's design patterns
+ */
+
+/* Main Container */
+.imagify-bulk-restore-page {
+	max-width: 1200px;
+}
+
+.imagify-bulk-restore-title {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 20px;
+	color: #1d2327;
+}
+
+.imagify-bulk-restore-title .dashicons {
+	font-size: 32px;
+	width: 32px;
+	height: 32px;
+	color: #1d2327;
+}
+
+.imagify-bulk-restore-description {
+	font-size: 14px;
+	color: #50575e;
+	margin-bottom: 30px;
+}
+
+/* Settings Section */
+.imagify-settings-section {
+	background: #fff;
+	padding: 30px;
+	border: 1px solid #ccd0d4;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	margin-bottom: 20px;
+}
+
+/* Columns Layout */
+.imagify-columns {
+	display: flex;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+.imagify-col {
+	flex: 1;
+	min-width: 300px;
+}
+
+/* Headings */
+.imagify-h2-like {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #3858e9;
+	color: #1d2327;
+}
+
+.imagify-h2-like .dashicons {
+	font-size: 24px;
+	width: 24px;
+	height: 24px;
+	color: #3858e9;
+}
+
+/* Statistics Box */
+.imagify-stat-box {
+	background: #f6f7f7;
+	padding: 20px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	border: 1px solid #dcdcde;
+}
+
+.imagify-stat-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 0;
+	border-bottom: 1px solid #dcdcde;
+}
+
+.imagify-stat-item:last-child {
+	border-bottom: none;
+}
+
+.imagify-stat-label {
+	font-size: 13px;
+	color: #2c3338;
+	font-weight: 500;
+}
+
+.imagify-stat-value {
+	font-size: 18px;
+	font-weight: 700;
+	color: #1d2327;
+}
+
+.imagify-stat-highlight {
+	background: #fff;
+	margin: 10px -20px -20px;
+	padding: 15px 20px;
+	border-radius: 0 0 4px 4px;
+}
+
+.imagify-stat-highlight .imagify-stat-value {
+	color: #3858e9;
+	font-size: 20px;
+}
+
+.imagify-stat-percent {
+	font-size: 16px;
+	color: #40b450;
+	margin-left: 5px;
+}
+
+/* Context Stats */
+.imagify-context-stats {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	padding: 15px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+}
+
+.imagify-context-stats h3 {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0 8px 0;
+	color: #1d2327;
+}
+
+.imagify-context-stats p {
+	margin: 0;
+	font-size: 13px;
+	color: #2c3338;
+}
+
+/* Restore Actions */
+.imagify-restore-actions {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.imagify-restore-action-item {
+	background: #f6f7f7;
+	padding: 20px;
+	border-radius: 4px;
+	border: 2px solid #c3c4c7;
+	transition: border-color 0.2s ease;
+}
+
+.imagify-restore-action-item:hover {
+	border-color: #3858e9;
+}
+
+.imagify-restore-action-item button {
+	width: 100%;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	font-size: 14px;
+	padding: 12px 20px;
+	height: auto;
+}
+
+.wp-core-ui .imagify-restore-action-item button.button-primary:disabled,
+.wp-core-ui .imagify-restore-action-item button.button-primary[disabled] {
+	opacity: 0.6 !important;
+	cursor: not-allowed !important;
+	background: #2271b1 !important;
+	border-color: #2271b1 !important;
+	color: #fff !important;
+	text-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.imagify-restore-action-item button .dashicons {
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+}
+
+.imagify-restore-action-item .description {
+	margin: 0;
+	font-size: 12px;
+	color: #2c3338;
+}
+
+.imagify-restore-all-btn {
+	background: #d63638 !important;
+	border-color: #d63638 !important;
+}
+
+.imagify-restore-all-btn:hover {
+	background: #b32d2e !important;
+	border-color: #b32d2e !important;
+}
+
+.wp-core-ui .imagify-restore-all-btn.button-primary:disabled,
+.wp-core-ui .imagify-restore-all-btn.button-primary[disabled] {
+	opacity: 0.6 !important;
+	cursor: not-allowed !important;
+	background: #d63638 !important;
+	border-color: #d63638 !important;
+	color: #fff !important;
+	text-shadow: none !important;
+	box-shadow: none !important;
+}
+
+/* No Images Message */
+.imagify-no-images-message {
+	background: #fff3cd;
+	border: 1px solid #ffc107;
+	border-radius: 4px;
+	padding: 20px;
+	text-align: center;
+}
+
+.imagify-no-images-message p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	margin: 0;
+	color: #856404;
+}
+
+.imagify-no-images-message .dashicons {
+	color: #ffc107;
+	font-size: 24px;
+	width: 24px;
+	height: 24px;
+}
+
+/* Progress Container */
+.imagify-restore-progress-container {
+	background: #f0f6ff;
+	border: 2px solid #3858e9;
+	border-radius: 4px;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.imagify-restore-progress-container h3 {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0 15px 0;
+	color: #1d2327;
+}
+
+/* Progress Bar */
+.imagify-progress-bar {
+	background: #e0e0e0;
+	border-radius: 10px;
+	height: 20px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.imagify-progress-bar-fill {
+	background: linear-gradient(90deg, #3858e9 0%, #40b450 100%);
+	height: 100%;
+	border-radius: 10px;
+	transition: width 0.5s ease;
+	position: relative;
+}
+
+.imagify-progress-bar-fill::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(255, 255, 255, 0.3) 50%,
+		rgba(255, 255, 255, 0) 100%
+	);
+	animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+.imagify-progress-stats {
+	text-align: center;
+	font-size: 13px;
+	color: #2c3338;
+	font-weight: 500;
+}
+
+.imagify-progress-stats span {
+	font-weight: 700;
+	color: #1d2327;
+}
+
+/* Warning Message */
+.imagify-restore-warning {
+	background: #fff3cd;
+	border-left: 4px solid #ffc107;
+	padding: 15px;
+	margin-top: 20px;
+	border-radius: 4px;
+}
+
+.imagify-restore-warning p {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	margin: 0;
+	font-size: 13px;
+	color: #856404;
+}
+
+.imagify-restore-warning .dashicons {
+	color: #ffc107;
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+	margin-top: 2px;
+}
+
+/* Back Link */
+.imagify-back-link {
+	margin-top: 20px;
+}
+
+.imagify-back-link .button {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+}
+
+/* Notice Styles */
+.imagify-bulk-restore-notice {
+	margin: 20px 0;
+}
+
+/* Rotating Icon Animation */
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.button .dashicons.rotate,
+button:disabled .dashicons {
+	animation: rotate 2s linear infinite;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 782px) {
+	.imagify-columns {
+		flex-direction: column;
+	}
+
+	.imagify-col {
+		min-width: 100%;
+	}
+
+	.imagify-stat-item {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 5px;
+	}
+
+	.imagify-restore-action-item button {
+		font-size: 13px;
+		padding: 10px 15px;
+	}
+}
+
+/* Accessibility */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+	.imagify-stat-box,
+	.imagify-restore-action-item,
+	.imagify-context-stats {
+		border-width: 2px;
+	}
+}
+
+/* WordPress Admin Color Schemes Support */
+body.admin-color-light .imagify-settings-section,
+body.admin-color-blue .imagify-settings-section,
+body.admin-color-coffee .imagify-settings-section,
+body.admin-color-ectoplasm .imagify-settings-section,
+body.admin-color-midnight .imagify-settings-section,
+body.admin-color-ocean .imagify-settings-section,
+body.admin-color-sunrise .imagify-settings-section {
+	background: #fff;
+}
+
+/* Ensure text is always readable */
+.imagify-bulk-restore-page * {
+	color: inherit;
+}
+
+.imagify-bulk-restore-page h1,
+.imagify-bulk-restore-page h2,
+.imagify-bulk-restore-page h3,
+.imagify-h2-like {
+	color: #1d2327 !important;
+}
+
+.imagify-stat-label,
+.imagify-context-stats p,
+.imagify-restore-action-item .description,
+.imagify-progress-stats {
+	color: #2c3338 !important;
+}
+
+.imagify-stat-value,
+.imagify-context-stats h3 {
+	color: #1d2327 !important;
+}

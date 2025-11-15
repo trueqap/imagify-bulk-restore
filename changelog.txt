@@ -1,0 +1,19 @@
+== Changelog ==
+
+= 1.0.0 - 2025-01-14 =
+
+**Initial Release**
+
+* Bulk restore for WordPress Media Library
+* Bulk restore for Imagify Custom Folders
+* "Restore Everything" option for all contexts
+* Real-time progress tracking with AJAX
+* Detailed statistics display
+* Pause & Resume functionality
+* Auto-save queue every 5 seconds
+* WP-CLI support for command-line operations
+* Batch processing (10 images per request)
+* WordPress Multisite support
+* Responsive design matching Imagify styles
+* Comprehensive error handling
+* Unlimited image restoration

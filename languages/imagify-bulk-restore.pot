@@ -1,0 +1,161 @@
+# Copyright (C) 2025 Imagify Bulk Restore
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Imagify Bulk Restore 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/imagify-bulk-restore\n"
+"POT-Creation-Date: 2025-01-14 12:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: imagify-bulk-restore.php:42
+#, php-format
+msgid "%s requires the Imagify plugin to be installed and activated."
+msgstr ""
+
+#: inc/classes/class-imagify-bulk-restore.php:148
+msgid "No images to restore."
+msgstr ""
+
+#: inc/classes/class-imagify-bulk-restore-ajax.php:31
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: inc/classes/class-imagify-bulk-restore-ajax.php:40
+msgid "Invalid context."
+msgstr ""
+
+#: inc/classes/class-imagify-bulk-restore-ajax.php:47
+msgid "Custom folders optimization is not available."
+msgstr ""
+
+#: inc/classes/class-imagify-bulk-restore-ajax.php:59
+msgid "Bulk restore started successfully."
+msgstr ""
+
+#: views/page-bulk-restore.php:11
+msgid "Imagify Bulk Restore"
+msgstr ""
+
+#: views/page-bulk-restore.php:16
+msgid "Restore all your optimized images back to their original state. This will remove all Imagify optimizations and restore the original files from backup."
+msgstr ""
+
+#: views/page-bulk-restore.php:21
+msgid "Restore in Progress"
+msgstr ""
+
+#: views/page-bulk-restore.php:22
+msgid "A bulk restore operation is currently running. Please wait for it to complete."
+msgstr ""
+
+#: views/page-bulk-restore.php:28
+msgid "Restore Complete!"
+msgstr ""
+
+#: views/page-bulk-restore.php:31
+#, php-format
+msgid "%d images have been successfully restored to their original state."
+msgstr ""
+
+#: views/page-bulk-restore.php:41
+msgid "Overview"
+msgstr ""
+
+#: views/page-bulk-restore.php:47
+msgid "Optimized Images with Backup"
+msgstr ""
+
+#: views/page-bulk-restore.php:55
+msgid "Original Size"
+msgstr ""
+
+#: views/page-bulk-restore.php:63
+msgid "Current Optimized Size"
+msgstr ""
+
+#: views/page-bulk-restore.php:71
+msgid "Space Saved by Optimization"
+msgstr ""
+
+#: views/page-bulk-restore.php:82
+msgid "Media Library"
+msgstr ""
+
+#: views/page-bulk-restore.php:86
+#, php-format
+msgid "%1$d images • %2$s saved"
+msgstr ""
+
+#: views/page-bulk-restore.php:95
+msgid "Custom Folders"
+msgstr ""
+
+#: views/page-bulk-restore.php:99
+#, php-format
+msgid "%1$d files • %2$s saved"
+msgstr ""
+
+#: views/page-bulk-restore.php:108
+msgid "Restore Actions"
+msgstr ""
+
+#: views/page-bulk-restore.php:122
+#, php-format
+msgid "Restore Media Library (%d images)"
+msgstr ""
+
+#: views/page-bulk-restore.php:127
+msgid "Restore all optimized images in your WordPress Media Library."
+msgstr ""
+
+#: views/page-bulk-restore.php:139
+#, php-format
+msgid "Restore Custom Folders (%d files)"
+msgstr ""
+
+#: views/page-bulk-restore.php:144
+msgid "Restore all optimized files in your custom folders."
+msgstr ""
+
+#: views/page-bulk-restore.php:156
+#, php-format
+msgid "Restore Everything (%d items)"
+msgstr ""
+
+#: views/page-bulk-restore.php:161
+msgid "Restore all optimized images from both Media Library and Custom Folders."
+msgstr ""
+
+#: views/page-bulk-restore.php:170
+msgid "No optimized images found with available backups. Make sure backups are enabled in Imagify settings and you have optimized images."
+msgstr ""
+
+#: views/page-bulk-restore.php:177
+msgid "Restore Progress"
+msgstr ""
+
+#: views/page-bulk-restore.php:186
+#, php-format
+msgid "%1$d of %2$d images restored (%3$s%%)"
+msgstr ""
+
+#: views/page-bulk-restore.php:200
+msgid "Warning:"
+msgstr ""
+
+#: views/page-bulk-restore.php:201
+msgid "Restoring images will remove all optimizations and restore original files. Your images will return to their pre-optimization size. This action cannot be undone automatically."
+msgstr ""
+
+#: views/page-bulk-restore.php:210
+msgid "Back to Imagify Bulk Optimization"
+msgstr ""
+
+#: inc/classes/class-imagify-bulk-restore-views.php:49
+msgid "Bulk Restore"
+msgstr ""

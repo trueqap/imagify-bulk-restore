@@ -1,0 +1,8 @@
+# .gitattributes for imagify-bulk-restore
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Exclude development files from export (GitHub releases)
+.gitattributes export-ignore
+.gitignore export-ignore
