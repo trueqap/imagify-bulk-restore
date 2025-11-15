@@ -1,13 +1,13 @@
 # Imagify Bulk Restore
 
-**Contributors:** trueqap
-**Tags:** imagify, bulk restore, image optimization, wordpress
-**Requires at least:** 5.3
-**Tested up to:** 6.4
-**Requires PHP:** 7.4
-**Stable tag:** 1.0.0
-**License:** GPLv2 or later
-**License URI:** https://www.gnu.org/licenses/gpl-2.0.html
+**Contributors:** trueqap  
+**Tags:** imagify, bulk restore, image optimization, wordpress  
+**Requires at least:** 5.3  
+**Tested up to:** 6.4  
+**Requires PHP:** 7.4  
+**Stable tag:** 1.0.0  
+**License:** GPLv2 or later  
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
 Bulk restore all optimized images from Imagify in one click. Restore your entire Media Library and Custom Folders to their original state.
 
@@ -17,15 +17,15 @@ Bulk restore all optimized images from Imagify in one click. Restore your entire
 
 ### Features
 
-✅ **Bulk Restore Media Library** - Restore all optimized images in your WordPress Media Library at once
-✅ **Bulk Restore Custom Folders** - Restore all optimized files in your custom folders
-✅ **Restore Everything** - One-click restore of both Media Library and Custom Folders
-✅ **Real-time Progress Tracking** - Monitor restoration progress with live updates
-✅ **Detailed Statistics** - View optimization statistics before restoring
-✅ **Safe & Reliable** - Uses WordPress Action Scheduler for reliable background processing
-✅ **Imagify-style Design** - Seamlessly integrated UI matching Imagify's design patterns
-✅ **Network Multisite Support** - Works with WordPress Multisite installations
-✅ **WP-CLI Support** - Full command-line interface for automation and server management
+✅ **Bulk Restore Media Library** - Restore all optimized images in your WordPress Media Library at once  
+✅ **Bulk Restore Custom Folders** - Restore all optimized files in your custom folders  
+✅ **Restore Everything** - One-click restore of both Media Library and Custom Folders  
+✅ **Real-time Progress Tracking** - Monitor restoration progress with live updates  
+✅ **Detailed Statistics** - View optimization statistics before restoring  
+✅ **Safe & Reliable** - Uses WordPress Action Scheduler for reliable background processing  
+✅ **Imagify-style Design** - Seamlessly integrated UI matching Imagify's design patterns  
+✅ **Network Multisite Support** - Works with WordPress Multisite installations  
+✅ **WP-CLI Support** - Full command-line interface for automation and server management  
 
 ### How It Works
 
